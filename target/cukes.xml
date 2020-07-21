@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="24.216904">
+<testcase classname="Search for Vegetables" name="Login and search for vegetables" time="11.866109">
+<system-out><![CDATA[Given user is on GreenKart landing page.....................................passed
+When user search for "Cucumber" vegetable...................................passed
+Then "Cucumber" result is displayed.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search for Vegetables" name="Login and search for vegetables 2" time="12.350795">
+<system-out><![CDATA[Given user is on GreenKart landing page.....................................passed
+When user search for "Brinjal" vegetable....................................passed
+And Added more of the same item to cart.....................................passed
+And proceeds to checkout....................................................passed
+Then verify if "Brinjal" result is displayed................................passed
+]]></system-out>
+</testcase>
+</testsuite>
