@@ -26,6 +26,8 @@ public class stepDefinitions {
 		@Given("^user is on login page$")
 	    public void user_is_on_login_page() throws Throwable {
 			System.out.println("printing inside GIVEN");
+			System.out.println("printing inside again");
+			
 	        //throw new PendingException();
 				
 	    }
